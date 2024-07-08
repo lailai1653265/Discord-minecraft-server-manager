@@ -11,7 +11,13 @@ This project is a Discord bot that can manage a Fabric Minecraft server. The bot
 - RCON enabled on your Minecraft server
 - Java installed on your system
 - `.env` file with the necessary environment variables
+## Ensure RCON is enabled in your Minecraft server’s server.properties file:
 
+```
+enable-rcon=true
+rcon.port=25575
+rcon.password=your_rcon_password
+```
 ## Bot Commands
 
 - **Start Minecraft server**:
